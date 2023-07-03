@@ -3,6 +3,9 @@ import React from 'react';
 import DashboardStatsGrid from './shared/DashboardStatsGrid.jsx';
 import  TransactionChart  from './shared/TransactionChart.jsx';
 import BuyerProfilePieChart from './shared/BuyerProfilePieChart.jsx';
+import RecentOrders from './shared/RecentOrders.jsx';
+import PopularProducts from './shared/PopularProducts.jsx';
+
 
 export const Dashboard = () => {
   return (
@@ -12,6 +15,13 @@ export const Dashboard = () => {
 				    <TransactionChart />
 				    <BuyerProfilePieChart />
 			  </div>
+
+        <div className="flex flex-row gap-4 w-full">
+          <RecentOrders />
+          <PopularProducts />
+
+        </div>
+
     </div>
   )
 }
