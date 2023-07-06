@@ -50,7 +50,7 @@ const popularProducts = [
 export default function PopularProducts() {
   return (
     <div className="w-[20rem] h-[22rem] bg-white p-4 rounded-sm border border-gray-200 flex flex-col">
-        <strong className="text-gray-700 font-medium">Recent Orders</strong>
+        <strong className="text-gray-700 font-medium">PopularProducts</strong>
 
         <div className="mt-4 flex flex-col gap-3">
 				{popularProducts.map((product) => (
